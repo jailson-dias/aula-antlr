@@ -27,13 +27,8 @@
             <artifactId>antlr4-maven-plugin</artifactId>
             <version>4.4</version>
             <configuration>
-                <configuration>
-                    <listener>true</listener>
-                    <visitor>true</visitor>
-                    <arguments>
-                        <argument>-package</argument>
-                    </arguments>
-                </configuration>
+               <listener>false</listener>
+               <visitor>true</visitor>
             </configuration>
             <executions>
                 <execution>
