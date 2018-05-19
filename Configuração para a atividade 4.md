@@ -53,20 +53,19 @@ Por fim click em **Restart Now**
 
 Configurando o plugin antlr4 no eclipse para gerar os arquivos java com o padrão de projeto visitor, ou seja, gerar os arquivos lexer, parser e visitor que são necessários na atividade 4.
 
-1. Click com o botão direito na pasta do projeto
-2. Click em Propeties 
+1. No menu superior click na opção **window** o botão direito na pasta do projeto
+2. Click em **Propeties**
 
-![](https://raw.githubusercontent.com/jailson-dias/aula-antlr/master/imagens/atividade4/import-antlr-1.png)
+![](https://raw.githubusercontent.com/jailson-dias/aula-antlr/master/imagens/atividade4/visitor-1.png)
 
 Em seguida, na janela que abrir, faça:
 1. No menu lateral esquerdo selecione a opção **ANTLR 4** e dentro dela a opção **Tool**
-2. Marque o checkbox **Enable project specific settings** em **2**
+2. Click no menu **Options** e desmarque o checkbox **Generate a parse tree listener (-listener)** e marque o checkbox **Generate a parse tree visitors (-visitor)** como pode ser visto em **2**
+3. Click em **Apply and close**
 
 ![](https://raw.githubusercontent.com/jailson-dias/aula-antlr/master/imagens/atividade4/visitor-2.png)
 
-Marcando o checkbox vai ser possível editar as opções do plugin, assim faça:
-1. Click no menu **Options** e desmarque o checkbox **Generate a parse tree listener (-listener)** e marque o checkbox **Generate a parse tree visitors (-visitor)** como pode ser visto em **1**
-2. Click em **Apply and close**
+Na janela que abrir click em **yes**
 
 ![](https://raw.githubusercontent.com/jailson-dias/aula-antlr/master/imagens/atividade4/visitor-3.png)
 
