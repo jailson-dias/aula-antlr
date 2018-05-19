@@ -15,7 +15,7 @@ Primeiro baixe o antlr runtime na versão 4.4, disponivel em http://www.antlr.or
 Na janela que abrir faça:
 1. No menu lateral esquerdo selecione a opção **Java Build Path**
 2. No menu horizontal no centro da janela selecione a opção **Libraries**
-3. No menu lateral direito click em **Add External JARs** 
+3. No menu lateral direito click em **Add External JARs** e selecione o arquivo .jar do antlr runtime baixado anteriormente
 
 ![](https://raw.githubusercontent.com/jailson-dias/aula-antlr/master/imagens/atividade4/import-antlr-2.png)
 
