@@ -5,21 +5,21 @@
 #### Importando o antlr runtime para o projeto
 O antlr runtime é utilizado para gerar as classes lexer, parser e visitor que serão utilizadas no projeto e também é utilizado pelo eclipse para executar o projeto da ativiade 4.
 
-* Primeiro baixe o antlr runtime na versão 4.4, disponivel em http://www.antlr.org/download/antlr-runtime-4.4.jar, em seguida execute os passos abaixo.
+Primeiro baixe o antlr runtime na versão 4.4, disponivel em http://www.antlr.org/download/antlr-runtime-4.4.jar, em seguida execute os passos abaixo.
 
 1. Click com o botão direito na pasta do projeto
-2. Click em Propeties 
+2. Click em **Propeties** 
 
 ![](https://raw.githubusercontent.com/jailson-dias/aula-antlr/master/imagens/atividade4/import-antlr-1.png)
 
-Na janela janela que abrir faça:
+Na janela que abrir faça:
 1. No menu lateral esquerdo selecione a opção **Java Build Path**
 2. No menu horizontal no centro da janela selecione a opção **Libraries**
 3. No menu lateral direito click em **Add External JARs** 
 
 ![](https://raw.githubusercontent.com/jailson-dias/aula-antlr/master/imagens/atividade4/import-antlr-2.png)
 
-Depois que tiver selecionado o arquivo jar, click em **Apply and close**, como mostra a imagem abaixo.
+Depois que estiver selecionado o arquivo .jar, click em **Apply and close**, como mostra a imagem abaixo.
 
 ![](https://raw.githubusercontent.com/jailson-dias/aula-antlr/master/imagens/atividade4/import-antlr-3.png)
 
@@ -65,14 +65,14 @@ Em seguida, na janela que abrir, faça:
 ![](https://raw.githubusercontent.com/jailson-dias/aula-antlr/master/imagens/atividade4/visitor-2.png)
 
 Marcando o checkbox vai ser possível editar as opções do plugin, assim faça:
-1. Click no menu **Options** e desmarque o checkbox *Generate a parse tree listener (-listener)* e marque o checkbox *Generate a parse tree visitors (-visitor)* como pode ser visto em **1**
+1. Click no menu **Options** e desmarque o checkbox **Generate a parse tree listener (-listener)** e marque o checkbox **Generate a parse tree visitors (-visitor)** como pode ser visto em **1**
 2. Click em **Apply and close**
 
 ![](https://raw.githubusercontent.com/jailson-dias/aula-antlr/master/imagens/atividade4/visitor-3.png)
 
 #### Gerando os arquivos do antlr
 
-Primeiro é necessário criar um arquivo .g4 dentro do diretório **br.ufpe.cin.if688.minijava.main**, como pode ser visto em **1**, sendo que o nome da gramática e o nome do arquivo tem que ser iguais, como pode ser visto em **1** e **2**. Neste arquivo .g4 é necessário que tenha especificado qual é o pacote onde os arquivos lexer, parser e visitor vão ficar, como está feito em **3** que o pacote tem o mesmo nome que **4**. Por fim é necessário mover as classes BaseVisitor.java, Lexer.java, Parser.java e Visitor.java em **5** para o pacote main em **6**.
+Primeiro é necessário criar um arquivo .g4 dentro do diretório **br.ufpe.cin.if688.minijava.main**, como pode ser visto em **1**, sendo que o nome da gramática e o nome do arquivo tem que ser iguais, como pode ser visto em **1** e **2**. Neste arquivo .g4 é necessário que tenha especificado qual é o pacote onde os arquivos lexer, parser e visitor vão ficar, como está feito em **3** que o pacote tem o mesmo nome que **4**. Por fim é necessário mover as classes **BaseVisitor.java, Lexer.java, Parser.java e Visitor.java** em **5** para o pacote **br.ufpe.cin.if688.minijava.main** em **6**.
 
 
 ![](https://raw.githubusercontent.com/jailson-dias/aula-antlr/master/imagens/atividade4/arquivos-antlr.png)
